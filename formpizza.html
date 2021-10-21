@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Pemesanan</title>
+  </head>
+  <body style="max-width: 800px; border: 1px solid black; margin: auto">
+    <form action="thankyou.html">
+      <div style="padding-left: 15px">
+        <h2>Black Goose Bistro | Pizza-on-Demand</h2>
+        <p>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour.</p>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <label for="name"> Name: </label>
+                <input type="text" id="name" />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="address"> Adress: </label> <input type="text" id="address" /></td>
+            </tr>
+            <tr>
+              <td>
+                <label for="telephone-number">Telephone Number: </label>
+                <input type="number" name="number" id="telephone-number" placeholder="+62" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="email">Email: </label>
+                <input type="text" id="email" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="delivery-instruction">Delivery Instruction</label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <textarea required id="delivery-instruction" cols="50" rows="5" placeholder="No more than 400 characters long" maxlength="400"></textarea>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div>
+          <table>
+            <tr>
+              <td><b>Design Your Dream Pizza:</b></td>
+            </tr>
+            <tr>
+              <td>Pizza specs</td>
+            </tr>
+          </table>
+        </div>
+        <!-- Crust Radio -->
+        <p style="padding-left: 4px">Crust (Choose one):</p>
+        <ul style="list-style-type: none; padding-left: 15px">
+          <li><input type="radio" name="crust" value="classicwhite" />Classic White</li>
+          <li><input type="radio" name="crust" value="multigrsin" />Multigrain</li>
+          <li><input type="radio" name="crust" value="cheesestuufedcrust" />Cheese-stuffed crust</li>
+          <li><input type="radio" name="crust" value="gluttenfree" />Glutten-free</li>
+        </ul>
+        <!-- Akhir Crust Radio -->
+
+        <!-- Topping -->
+        <p style="padding-left: 4px">Toppings (Choose as many as you want):</p>
+        <ul style="padding-left: 15px; list-style-type: none">
+          <li><input type="checkbox" name="toppings" value="redsauce" />Red Sauce</li>
+          <li><input type="checkbox" name="toppings" value="whitesauce" />White Sauce</li>
+          <li><input type="checkbox" name="toppings" value="mozarellacheese" />Mozarella Cheese</li>
+          <li><input type="checkbox" name="toppings" value="papperoni" />Papperoni</li>
+          <li><input type="checkbox" name="toppings" value="mushrooms" />Mushrooms</li>
+          <li><input type="checkbox" name="toppings" value="peppers" />Peppers</li>
+          <li><input type="checkbox" name="toppings" value="anchovies" />Anchovies</li>
+        </ul>
+        <!-- Akhir Topping -->
+        <table>
+          <tbody>
+            <tr>
+              <td>Numbers</td>
+            </tr>
+            <tr>
+              <td>How many pizzas:</td>
+            </tr>
+
+            <tr>
+              <td>
+                <select name="pizza" id="pizza">
+                  <option value="">1</option>
+                  <option value="">2</option>
+                  <option value="">3</option>
+                  <option value="">4</option>
+                  <option value="">5</option>
+                  <option value="">6</option>
+                </select>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div style="display: flex; align-items: center; padding-bottom: 50px; padding-left: 4px; gap: 10px">
+          <input type="submit" value="Bring me a pizza" />
+          <input style="width: 60px; height: 20px" type="reset" value="reset" />
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
