@@ -1,0 +1,148 @@
+body {
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+fieldset {
+  background-color: rgb(85, 255, 255);
+  max-width: 1000px;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+}
+
+.container .profil {
+  width: 250px;
+  height: 250px;
+}
+
+.biodata {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  padding-left: 20px;
+  width: 90%;
+}
+th {
+  text-align: left;
+  font-size: 2rem;
+}
+
+.keterangan {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 20px;
+  padding-left: 0px;
+}
+
+li {
+  padding-bottom: 20px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+video {
+  background-color: black;
+  height: 300px;
+  justify-content: center;
+}
+
+.foto {
+  justify-content: center;
+}
+
+.table {
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+  justify-content: center;
+  background-color: #62dbf9;
+}
+
+.table .tratas td {
+  padding-left: 5px;
+}
+
+.table .trbawah td {
+  padding-left: 5px;
+}
+
+.link {
+  width: 300px;
+  height: 300px;
+  padding: 0;
+  margin: 0;
+  background-color: #62dbf9;
+}
+
+.link p {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.link .cv {
+  width: 50px;
+  height: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.link img {
+  width: 50px;
+  height: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.link p a {
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+img {
+  width: 135px;
+  height: 135px;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  color: black;
+  text-align: center;
+  padding-bottom: 3px;
+}
+
+footer p a {
+  text-decoration: none;
+}
+
+.love {
+  width: 15px;
+  height: 15px;
+}
+
+footer {
+  background-color: powderblue;
+}
+
+footer ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  padding-top: 30px;
+}
+
+footer a {
+  text-decoration: none;
+}
